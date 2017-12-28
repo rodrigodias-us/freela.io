@@ -16,9 +16,14 @@ import messages from './messages';
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <section className="hero is-fullheight">
+        <div className="hero-body">
+          <div className="container has-text-centered">
+            <h1 className="title has-text-weight-light">freela.io</h1>
+            <h2 className="subtitle has-text-weight-light">em breve</h2>
+          </div>
+        </div>
+      </section>
     );
   }
 }
