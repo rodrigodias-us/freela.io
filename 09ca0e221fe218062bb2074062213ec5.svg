@@ -1,0 +1,23 @@
+<svg width="139px" height="126px" viewBox="0 0 139 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#65207F" offset="0%"></stop>
+            <stop stop-color="#2D2F5A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-9.000000, 0.000000)">
+            <g id="Group" transform="translate(0.000000, 72.000000)">
+                <text id="freela.io" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="40" font-weight="400" letter-spacing="-0.960000038" fill="#65207F">
+                    <tspan x="9.92000017" y="39">freela.io</tspan>
+                </text>
+                <text id="any-people-anywhere" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" letter-spacing="-0.288000017" fill="#2D2F5A">
+                    <tspan x="26.9320002" y="51">any people anywhere</tspan>
+                </text>
+            </g>
+            <path d="M43.8110138,0 C43.2703379,0 43,0.360450563 43,0.811013767 L43,71.1889862 C43,71.6395494 43.3604506,72 43.8110138,72 L114.188986,72 C114.639549,72 115,71.6395494 115,71.1889862 L115,0.811013767 C115,0.270337922 114.639549,0 114.188986,0 L43.8110138,0 Z M56.5168961,7.02878598 L72.0162703,22.5281602 L56.5168961,38.0275344 L50.028786,31.5394243 L59.0400501,22.5281602 L50.028786,13.5168961 L56.5168961,7.02878598 Z M79.0450563,27.0337922 L106.078849,27.0337922 L106.078849,36.0450563 L79.0450563,36.0450563 L79.0450563,27.0337922 Z" id="Page-1" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
