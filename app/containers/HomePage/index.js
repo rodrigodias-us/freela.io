@@ -12,6 +12,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import logo from './logo.svg';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -19,8 +20,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
       <section className="hero is-fullheight">
         <div className="hero-body">
           <div className="container has-text-centered">
-            <h1 className="title has-text-weight-light">freela.io</h1>
-            <h2 className="subtitle has-text-weight-light">em breve</h2>
+            <img src={logo} />
           </div>
         </div>
       </section>
