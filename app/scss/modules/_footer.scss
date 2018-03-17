@@ -1,0 +1,117 @@
+.footer {
+  background: url(../images/bg-bottom.svg) no-repeat center top;
+  position: relative;
+  color: #fff;
+
+  @media (max-width: 991px) {
+    background-size: auto 100%;
+  }
+}
+
+.footer-signup {
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 50px;
+  margin-bottom: 90px;
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+
+  @media (max-width: 991px) {
+    padding-top: 160px;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 190px;
+  }
+}
+.content-footer {
+  @extend %flex-default;
+  align-items: flex-start;
+  padding-bottom: 70px;
+}
+
+.footer-text {
+  width: calc(50% - 25px);
+  font-size: 24px;
+  text-align: left;
+  line-height: 1.2;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.footer-form {
+  width: calc(50% - 25px);
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  padding: 0 20px;
+  border: 1px solid #979797;
+  margin-bottom: 15px;
+  color: #383458;
+}
+.form-submit {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  background-color: #00C2E0;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+.footer-rights {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(000, 000, 000, 0.4);
+  padding: 30px;
+  font-size: 14px;
+}
+
+
+
+// CHAMPS
+.content-footer-signup {
+  position: relative;
+}
+.demoin {
+  position: absolute;
+  top: 65%;
+  right: -2%;
+  width: 30%;
+  max-width: 225px;
+
+  @media (max-width: 1199px) {
+    top: 0%;
+  }
+  @media (max-width: 991px) {
+    top: 30%;
+    right: -2%;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
