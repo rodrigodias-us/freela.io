@@ -59,7 +59,7 @@ $(document).ready(function(){
   $('.header-btn').on('click', function(e){
     e.preventDefault();
     $('.video-modal').addClass('active');
-    $('.video-iframe').attr('src', 'https://player.vimeo.com/video/260457975')
+    $('.video-iframe').attr('src', 'https://player.vimeo.com/video/260457975?autoplay=1')
   })
 
   $('.modal-close, .modal-bg').on('click', function(e){
@@ -104,4 +104,3 @@ $(document).ready(function(){
 
 
 });
-
