@@ -10720,7 +10720,7 @@ header {
 
 .xara {
   position: absolute;
-  bottom: -100%;
+  bottom: -140%;
   left: -9%;
   width: 30%;
   max-width: 270px; }
@@ -10759,7 +10759,6 @@ header {
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.9;
   background-color: #362D5C; }
 
 .modal-close {

@@ -10691,11 +10691,10 @@ header {
 
 .header-btn {
   display: block;
-  background-color: #fff;
-  width: 50%;
+  width: 65%;
   overflow: hidden;
   border-radius: 15px;
-  margin-right: -8.5%;
+  margin-right: -10%;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
   @media (max-width: 767px) {
@@ -10735,7 +10734,7 @@ header {
 
 .mascote {
   position: absolute;
-  bottom: -60%;
+  bottom: -20%;
   right: -9%;
   width: 30%;
   max-width: 215px; }
