@@ -95,9 +95,9 @@ $(document).ready(function(){
     var data = $(this).serialize();
     var url = 'https://fast-depths-50279.herokuapp.com/api/web/form';
 
-    // $.post(url, data, function(data){
-    //   console.log(data)
-    // });
+    $.post(url, data, function(data){
+      console.log(data)
+    });
 
      $('.form-input').val("");
   });
