@@ -55,6 +55,12 @@
   }
 }
 
+.form {
+  &.wait {
+    pointer-events: none;
+  }
+}
+
 .form-input {
   display: block;
   width: 100%;
@@ -113,5 +119,32 @@
   }
   @media (max-width: 767px) {
     display: none;
+  }
+}
+
+
+.msg-success {
+  color: green;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: none;
+}
+.msg-fail {
+  color: orange;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: none;
+}
+
+.footer-form {
+  &.form-success {
+    .msg-success {
+      display: block;
+    }
+  }
+  &.form-fail {
+    .msg-fail {
+      display: block;
+    }
   }
 }

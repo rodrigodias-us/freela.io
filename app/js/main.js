@@ -90,19 +90,25 @@ $(document).ready(function(){
   // Send form
   $('.form').submit(function(e) {
 
-    e.preventDefault(); // <-- add this
+    e.preventDefault();
+
+    $('.form').addClass('wait');
+    $("body").css("cursor", "progress");
 
     var data = $(this).serialize();
     var url = 'https://fast-depths-50279.herokuapp.com/api/web/form';
 
     $.post(url, data, function(data){
-      console.log(data);
-      alert("Cadastro realizado com sucesso!");
+      $('.footer-form').addClass('form-success');
       $('.form-input').val("");
+      $('.form').removeClass('wait');
+      $("body").css("cursor", "default");
     }).fail(function(data){
-      console.log(data);
-      alert("Ocorreu um erro ao fazer seu cadastro. Tente novamente mais tarde.");
+      $('.footer-form').addClass('form-fail');
+      $('.form').removeClass('wait');
+      $("body").css("cursor", "default");
     });
+
   });
 
 

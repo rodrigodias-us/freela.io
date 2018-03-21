@@ -10634,7 +10634,7 @@ header {
   position: relative;
   color: #fff;
   margin-bottom: 120px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     header {
       background-size: auto 100%;
       padding-bottom: 90px;
@@ -10643,7 +10643,7 @@ header {
 .logo {
   text-align: center;
   margin: 0px 0 70px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .logo {
       margin-bottom: 40px; } }
 
@@ -10659,12 +10659,13 @@ header {
   max-width: 460px;
   font-size: 38px;
   line-height: 1.2; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .header-text {
       -webkit-box-ordinal-group: 3;
           -ms-flex-order: 2;
               order: 2;
       width: 100%;
+      max-width: 100%;
       margin-bottom: 50px;
       font-size: 28px;
       text-align: center; } }
@@ -10673,7 +10674,7 @@ header {
 
 .header-terminal {
   margin-bottom: 20px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .header-terminal {
       display: none; } }
 
@@ -10697,7 +10698,7 @@ header {
   margin-right: -10%;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .header-btn {
       -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
@@ -10728,7 +10729,7 @@ header {
     .xara {
       bottom: -100%;
       left: -5%; } }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .xara {
       bottom: 45%; } }
 
@@ -10738,7 +10739,7 @@ header {
   right: -9%;
   width: 30%;
   max-width: 215px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .mascote {
       bottom: 45%; } }
 
@@ -10883,6 +10884,9 @@ header {
     .footer-form {
       width: 100%; } }
 
+.form.wait {
+  pointer-events: none; }
+
 .form-input {
   display: block;
   width: 100%;
@@ -10933,3 +10937,21 @@ header {
   @media (max-width: 767px) {
     .demoin {
       display: none; } }
+
+.msg-success {
+  color: green;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: none; }
+
+.msg-fail {
+  color: orange;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: none; }
+
+.footer-form.form-success .msg-success {
+  display: block; }
+
+.footer-form.form-fail .msg-fail {
+  display: block; }
